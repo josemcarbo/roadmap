@@ -1,0 +1,53 @@
+@import url("./_normalize.css");
+@import url("./_variables.css");
+
+body {
+  margin: 3rem;
+  font-size: var(--font-size-normal);
+  font-weight: var(--font-weight-normal);
+  color: var(--text-primary-color);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-normal);
+
+  header {
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
+    border-top: 1px solid var(--border-primary-color);
+    padding-top: var(--space-normal);
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-small) 0;
+
+    h1 {
+      color: var(--primary-color);
+    }
+
+    article {
+      h3 {
+        color: var(--secondary-color);
+        font-size: var(--font-size-normal);
+      }
+
+      p {
+        font-size: var(--font-size-small);
+      }
+
+      ul {
+        padding: var(--space-small);
+        list-style: circle;
+
+        li {
+          font-size: var(--font-size-small);
+          margin-left: var(--font-size-small);
+        }
+      }
+    }
+  }
+}

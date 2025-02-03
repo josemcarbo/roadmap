@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #2f9e44;
+  --secondary-color: #1971c2;
+  
+  --border-primary-color: #2e2f30;
+
+  --text-primary-color: #2e2f30;
+  --text-secondary-color: #c1bebd;
+
+  --font-size-large: 3rem;
+  --font-size-medium: 1.5rem;
+  --font-size-normal: 1rem;
+  --font-size-small: .8rem;
+
+  --font-weight-bold: 700;
+  --font-weight-semi: 500;
+  --font-weight-normal: 400;
+
+  --space-large: 2rem;
+  --space-medium: 1.5rem;
+  --space-normal: 1rem;
+  --space-small: .5rem;
+}
